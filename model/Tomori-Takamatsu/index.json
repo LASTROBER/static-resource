@@ -1,0 +1,49 @@
+{
+    "type":"Live2D Model Setting",
+    "name":"tomori",
+    "version":"1.0.0",
+    "model":"model.moc",
+    "textures":[
+        "textures/texture_01.png",
+        "textures/texture_00.png"
+    ], 
+    "layout":{
+        "center_x": 0,
+        "center_y": 0.1,
+        "width": 2.3,
+        "height": 2.3
+    },
+    "hit_areas_custom":{
+		"head_x":[-0.33, 0.6],
+		"head_y":[0.19, -0.2],
+		"body_x":[-0.3, -0.25],
+		"body_y":[0.3, -0.9]
+	},
+    "motions":{
+        "idle":[
+            {"file":"motions/idle01.mtn"}
+        ],
+        "angry":[
+            {"file":"motions/angry01.mtn"},
+            {"file":"motions/angry02.mtn"}
+        ],
+        "bye":[
+            {"file":"motions/bye01.mtn"}
+        ],
+        "cry":[
+            {"file":"motions/cry01.mtn"},
+            {"file":"motions/cry02.mtn"}
+        ]
+    },
+     "expressions":[
+        {"name":"angry01","file": "expressions/angry01.exp.json"},
+        {"name":"angry02","file": "expressions/angry02.exp.json"},
+        {"name":"bye01","file": "expressions/bye01.exp.json"},
+        {"name":"cry01","file": "expressions/cry01.exp.json"},
+        {"name":"cry02","file": "expressions/cry02.exp.json"},
+        {"name":"idle","file": "expressions/idle.exp.json"}
+    
+    ]
+    
+
+}
