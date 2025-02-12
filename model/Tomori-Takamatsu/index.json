@@ -21,18 +21,18 @@
 	},
     "motions":{
         "idle":[
-            {"file":"motions/idle01.mtn"}
+            {"file":"motions/idle01.mtn","fade_in":2000,"fade_out":2000}
         ],
         "angry":[
-            {"file":"motions/angry01.mtn"},
-            {"file":"motions/angry02.mtn"}
+            {"file":"motions/angry01.mtn","fade_in":2000,"fade_out":2000},
+            {"file":"motions/angry02.mtn","fade_in":100,"fade_out":100}
         ],
         "bye":[
-            {"file":"motions/bye01.mtn"}
+            {"file":"motions/bye01.mtn","fade_in":200,"fade_out":200}
         ],
         "cry":[
-            {"file":"motions/cry01.mtn"},
-            {"file":"motions/cry02.mtn"}
+            {"file":"motions/cry01.mtn","fade_in":500,"fade_out":500},
+            {"file":"motions/cry02.mtn","fade_in":2000,"fade_out":2000}
         ]
     },
      "expressions":[
